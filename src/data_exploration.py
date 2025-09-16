@@ -18,3 +18,7 @@ print(df.head())
 # Get dataset information (column names, data types, non-null values)
 print("\nDataset Info: ")
 print(df.info())
+
+# Chec for any missing values in the combined dataset
+print("\nMissing values: ")
+print(df.isnull().sum())
